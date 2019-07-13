@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(181, 235, 252);
+}
+
+.leftdiv,
+.rightdiv{
+    border: 1px solid black;
+    height: 300px;
+    padding: 50px;
+    background: none;
+    width: 500px;
+    float: left;
+    border-radius: 3px;
+}
+
+.rightdiv {
+    background: none;
+    position: relative;
+    left: 150px;
+}
+
+.thirddiv {
+    background: yellow;
+}
+
+
+.dragItemOver {
+    background: yellow
+}
+
+.colors {
+    width: 30px;
+    height: 30px;
+    background: grey;
+    border: 1px solid rgb(161, 161, 161);
+    margin: 0.6px
+}
+
+.leftdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    height: auto;
+}
+
+.rightdiv div {
+    border: 1px solid #eee;
+    height: 100px;
+}
+
+#alertDiv{
+    clear: both!important;
+    position: relative;
+}
+#nxtBtn{
+    border: none;
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
